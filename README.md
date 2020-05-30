@@ -45,7 +45,7 @@ yarn electron:build
 
 ### `Library` 模块不可用，写死的设置好 default, 目前仅支持 default 一个库
 
-![Library](https://github.com/TheProudSoul/sk-electron/blob/master/library.png)
+![Library](https://github.com/TheProudSoul/sk-electron/blob/master/snapshot/library.png)
 
 ### `Version Control` 模块可用且正常
 
