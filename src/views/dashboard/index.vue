@@ -212,10 +212,10 @@ export default {
   }),
   watch: {
     email() {
-      this.errMsg = "";
+      this.loginError = "";
     },
     password() {
-      this.errMsg = "";
+      this.loginError = "";
     }
   },
   computed: {

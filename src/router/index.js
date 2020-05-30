@@ -8,7 +8,6 @@ const router = new VueRouter({
     path: '/',
     component: () => import('@/views/dashboard/index'),
     children: [
-      // Library
       {
         name: 'dashboard-library',
         path: '/',
@@ -35,7 +34,7 @@ const router = new VueRouter({
   {
     path: '/library',
     name: 'library',
-    component: () => import(/* webpackChunkName: "about" */ '../views/library/index')
+    component: () => import( '../views/library/index')
   }]
 })
 

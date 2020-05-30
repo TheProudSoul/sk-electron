@@ -81,31 +81,5 @@ export default {
 };
 </script>
 
-<style scoped>
-/* .tui-editor-defaultUI-toolbar {
-  background-color: #424242;
-} */
-/* .tui-editor-contents h1,
-.tui-editor-contents h2,
-.tui-editor-contents h3,
-.tui-editor-contents h4,
-.tui-editor-contents h5,
-.tui-editor-contents h6,
-.tui-editor-contents ul,
-.tui-editor-contents menu,
-.tui-editor-contents ol,
-.tui-editor-contents dir,
-.tui-editor-contents table {
-  font-weight: bold;
-  color: #fff;
-} */
-/* .tui-editor-contents,
-.tui-editor-contents * {
-  color: #fff;
-  background-color: #424242;
-}
-.tui-editor-defaultUI {
-  color: #FFFFFF !important;
-  background-color: #121212 !important;
-} */
+<style>
 </style>
