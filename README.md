@@ -96,5 +96,4 @@ yarn electron:build
 
 ## 已知的 BUG
 
-- rename 时路径未进行normalize
 - change 状态在文件内容过多渲染时间过长时出错

@@ -13,7 +13,7 @@ export function get() {
 
 export function insert(pathname, type, description) {
     db.run("INSERT INTO 'file_journal'(pathname, type, description) VALUES($d1, $d2, $d3)",
-        { $d1: normalize(pathname), $d2: type, $d3: description }, (err) => {
+        { $d1: normalize(pathname), $d2: type, $d3: normalize(description) }, (err) => {
             if (err) throw err;
         })
 }

@@ -42,7 +42,7 @@ export function commitEdit(path, data) {
         }
     })
 }
-export function commitMove(oldPath, newPath) {
+export function commitMove(newPath, oldPath) {
     return http({
         url: `${url}/commit-move`,
         method: 'post',
