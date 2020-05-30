@@ -45,7 +45,7 @@ yarn electron:build
 
 ### `Library` 模块不可用，写死的设置好 default, 目前仅支持 default 一个库
 
-![Library](snapshot/library.png)
+![Library](https://github.com/TheProudSoul/sk-electron/edit/master/snapshot/library.png)
 
 ### `Version Control` 模块可用且正常
 
@@ -56,7 +56,7 @@ yarn electron:build
 - 删除
 - 下载
 
-![Version Control](snapshot/vc_1.png)
+![Version Control]https://github.com/TheProudSoul/sk-electron/edit/master/(snapshot/vc_1.png)
 
 ### 图床模块可用且正常
 
@@ -69,9 +69,9 @@ yarn electron:build
 
 注：只有在当前有文件的情况下才可备份，单个账号最多可拥有15个备份
 
-![Upload](snapshot/image_1.png)
+![Upload](https://github.com/TheProudSoul/sk-electron/edit/master/snapshot/image_1.png)
 
-![Upload](snapshot/image_2_2.png)
+![Upload](https://github.com/TheProudSoul/sk-electron/edit/master/snapshot/image_2_2.png)
 
 ### 编辑模块， 应该还有 bugs，但是目前来说还算正常
 
@@ -86,10 +86,10 @@ yarn electron:build
 - 文件夹搜索
 - 打开文件的本地位置
 
-![](snapshot/e_1.png)
+![](https://github.com/TheProudSoul/sk-electron/edit/master/snapshot/e_1.png)
 
-![](snapshot/e_2.png)
+![](https://github.com/TheProudSoul/sk-electron/edit/master/snapshot/e_2.png)
 
 注：dark 模式下显示不理想，如下图
 
-![](snapshot/e_3.png)
+![](https://github.com/TheProudSoul/sk-electron/edit/master/snapshot/e_3.png)
