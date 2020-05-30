@@ -56,6 +56,8 @@ yarn electron:build
 - 删除
 - 下载
 
+注：只有在当前有文件的情况下才可备份，单个账号最多可拥有15个备份
+
 ![Version Control](https://github.com/TheProudSoul/sk-electron/blob/master/snapshot/vc_1.png)
 
 ### 图床模块可用且正常
@@ -66,8 +68,6 @@ yarn electron:build
 - 新建
 - 复制
 - 浏览
-
-注：只有在当前有文件的情况下才可备份，单个账号最多可拥有15个备份
 
 ![Upload](https://github.com/TheProudSoul/sk-electron/blob/master/snapshot/image_1.png)
 
