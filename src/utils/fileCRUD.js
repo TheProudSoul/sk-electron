@@ -70,9 +70,9 @@ export function createFolderIfNotExist(folderName, pathname, isLeaf) {
 }
 
 export function move(oldPath, newPath) {
-    fs.moveSync(oldPath, newPath)
-    // fs.copySync(oldPath, newPath)
-    // fs.remove(oldPath);
+    // fs.moveSync(oldPath, newPath)
+    fs.copySync(oldPath, newPath)
+    fs.remove(oldPath);
 }
 
 export function remove(pathname) {

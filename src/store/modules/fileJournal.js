@@ -72,7 +72,7 @@ const actions = {
                     }
                     default: console.error("unknown event type")
                 }
-                commit('setJournalId', element.journalId)
+                commit('commitJournalId', element.journalId)
             }
         });
     }

@@ -116,10 +116,10 @@ class NotificationWatcher {
     listRemote() {
         http.notificationApi.list().then(res => {
             console.log('remote list', res)
-            if (res.data != null && res.data.length > 0) {
+            if (res != null && res.length > 0) {
                 setTimeout(() => {
                     // this.remoteToLocal(res.data)
-                    store.dispatch('handleRemoteJournal', res.data)
+                    store.dispatch('handleRemoteJournal', res)
                 }, 1000);
             }
         })
